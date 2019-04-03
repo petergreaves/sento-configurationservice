@@ -1,5 +1,6 @@
 build/libs/*.
 build/classes/*
+build/tmp/*
 
 # Created by https://www.gitignore.io/api/intellij
 # Edit at https://www.gitignore.io/?templates=intellij
@@ -9,6 +10,8 @@ build/classes/*
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff
+out
+.idea/*.xml
 .idea/**/workspace.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
